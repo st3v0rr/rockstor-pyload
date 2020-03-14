@@ -5,7 +5,8 @@
         "website": "https://github.com/pyload/pyload.git",
         "containers": {
             "pyload": {
-                "image": "st3v0rr/pyload:latest",
+                "image": "st3v0rr/pyload",
+                "tag": "latest",
                 "launch_order": 1,
                 "ports": {
                     "8000": {
